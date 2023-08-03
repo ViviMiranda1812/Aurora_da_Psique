@@ -2,7 +2,18 @@
 .desktop-1 * {
   box-sizing: border-box;
 }
-
+.barra {
+  background: #f0f0ec;
+  width: 1580px;
+  height: 7777px;
+  position: relative;
+  overflow: hidden;}
+.nomes {
+    color: #006440;
+    text-align: left;
+    font: 200 20px 'Roboto', sans-serif;
+    position: relative;
+}
 .desktop-1 {
   background: #f0f0ec;
   width: 1580px;
@@ -32,17 +43,6 @@
   top: 17px;
 }
 
-.home {
-  color: #006440;
-  text-align: left;
-  font: var(--menu, 400 32px 'Roboto', sans-serif);
-  text-decoration: underline;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start
-}
-
 .group-1 {
   position: absolute;
   inset: 0;
@@ -69,14 +69,6 @@
   position: relative;
 }
 
-.login {
-  color: #ffffff;
-  text-align: left;
-  font: 400 32px 'Roboto', sans-serif;
-  position: absolute;
-  left: 804px;
-  top: 23px;
-}
 
 .aurora-1 {
   width: 639px;
@@ -335,13 +327,6 @@
   position: relative;
 }
 
-.sobre-n-s {
-  color: #006440;
-  text-align: left;
-  font: 400 32px 'Roboto', sans-serif;
-  text-decoration: underline;
-  position: relative;
-}
 
 .group-4 {
   position: absolute;
