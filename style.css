@@ -892,12 +892,31 @@ input[type="submit"]:hover{
   top: 5943px;
   width: 917px;
 }
+
+
+
 /* ABA DE VÍDEOS*/
 h1{
   color: #006440;
   font-family: Arial, Helvetica, sans-serif;
+ 
+}
+h2{
+  text-align: center;
+}
+h3{
+  color: #006440;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center
 }
 
 body{
   background-color: #eef0e5;
 }
+ 
+h4{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
