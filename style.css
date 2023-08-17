@@ -786,3 +786,32 @@ h4{
 .card-deck{
   background-color: #f0f0ec;
 }
+
+
+.sobre-nós{
+color: #00472e;
+  text-align: justified;
+  font: 700 40px 'Inter', sans-serif;
+  position: absolute;
+  left: 619px;  
+  top: 4775px;
+}
+
+.descricao{
+  color: #00472e;
+  text-align: justified;
+  font: 700 40px 'Inter', sans-serif;
+  position: absolute;
+  left: 619px;  
+  top: 4775px;
+
+}
+
+.Sobre_Nos {
+  color: rgba(0, 71, 46, 0.92);
+  text-align: center;
+  font: 700 48px 'Inter', sans-serif;
+  position: absolute;
+  left: 619px;
+  top: 4700px;
+}
