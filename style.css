@@ -920,3 +920,9 @@ h4{
   justify-content: space-between;
 }
 
+h6{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
