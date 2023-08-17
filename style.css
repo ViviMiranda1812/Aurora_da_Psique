@@ -927,3 +927,9 @@ h6{
   
 }
 
+.conte-do-informativo{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+ 
+}
