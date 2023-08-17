@@ -116,26 +116,18 @@ input[type="submit"]:hover{
 /* fim da página de cadastro*/
 
 /* SITE*/
-.desktop-1,
-.desktop-1 * {
-  box-sizing: border-box;
-}
+
 .barra {
   background: #f0f0ec;
   width: 1580px;
   height: 7777px;
   position: relative;
   overflow: hidden;}
-.nomes {
-    color: #006440;
-    text-align: left;
-    font: 200 20px 'Roboto', sans-serif;
-    position: relative;
-}
+
 .desktop-1 {
   background: #f0f0ec;
   width: 1580px;
-  height: 7777px;
+  height: 2900px;
   position: relative;
   overflow: hidden;
 }
@@ -786,3 +778,11 @@ h4{
   justify-content: space-between;
 }
 
+/* CARDS*/
+.card-img-top{
+  width: 200px;
+  height: 300px;
+}
+.card-deck{
+  background-color: #f0f0ec;
+}
