@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SUPORTE</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="style.css">
   
 <div class="formSelecionar">
     <div>
+        <h1>Suporte</h1>
+        <div class="page">
+            <form method="POST" class="formLogin">
         <br>
         <br>
         <label for="cliente">Cliente</label> 
@@ -22,29 +25,28 @@
         <input type="email" placeholder="Digite seu e-mail" /> <br>
         <br>
         <br>
-         
-    </div>
- 
-
-    <div>
-    <form>
-    <select name="selecione o problema">
-        <option value="selecione o problema">selecione o problema</option>
-        <option value="erro404">página não encontrada</option>
-        <option value="erro401"> erro no login</option>
-        <option value="erro500"> erro no recarregamento da página</option>
-        <option value="erro102">erro no processamento de dados</option>
-        <option value="erro418">servidor recusa dados</option>
-        <option value="erro508">erro 508 "Limites de recursos"</option>
-        <option value="erro411">instabilidade</option>
-        <option value="erro411">serviço indisponível ou fora do ar</option>
-    </select>
-    </form>
-    </div>
+        <form>
+            <select name="selecione o problema">
+                <option value="selecione o problema">selecione o problema</option>
+                <option value="erro404">página não encontrada</option>
+                <option value="erro401"> erro no login</option>
+                <option value="erro500"> erro no recarregamento da página</option>
+                <option value="erro102">erro no processamento de dados</option>
+                <option value="erro418">servidor recusa dados</option>
+                <option value="erro508">erro 508 "Limites de recursos"</option>
+                <option value="erro411">instabilidade</option>
+                <option value="erro411">serviço indisponível ou fora do ar</option>
+                <option value="erro411">imagem não carrega</option>
+                <option value="erro411">botão não funciona</option>
+            </select>
+            <br>
+            <button class="buttoon"> ENVIAR</button>
+            <br>
+            </form>
+           
     
-    <br>
-    <button class="buttoon"> ENVIAR</button>
-    <br>
+        </div>
+    </div>
 </div>
 
 </html>
