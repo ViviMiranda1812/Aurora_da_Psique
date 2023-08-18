@@ -376,15 +376,6 @@ input[type="submit"]:hover{
   top: 1659px;
 }
 
-.saiba-mais {
-  color: #000000;
-  text-align: left;
-  font: 400 30px 'Roboto', sans-serif;
-  position: relative;
-  width: 181px;
-  height: 51px;
-}
-
 .group-2 {
   position: absolute;
   inset: 0;
@@ -752,6 +743,27 @@ input[type="submit"]:hover{
   height: 44px;
 }
 
+/* SUPORTE */
+.formSelecionar{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.caixa{
+  align-items: center;
+  
+}
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 50px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+  gap: 5px;
+  width: 300px;
+}
 
 /* ABA DE VÍDEOS*/
 h1{
@@ -787,15 +799,6 @@ h4{
   background-color: #f0f0ec;
 }
 
-
-.sobre-nós{
-color: #00472e;
-  text-align: justified;
-  font: 700 40px 'Inter', sans-serif;
-  position: absolute;
-  left: 619px;  
-  top: 4775px;
-}
 
 .descricao{
   color: #00472e;
