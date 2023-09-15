@@ -822,7 +822,19 @@ h4{
   position: absolute;
   left: 619px;
   top: 4700px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: auto;
+  width: 6%;
+  display: block;
+  left: 31px;  
+  top: 4700px;
+
+  
+
+
 }
+
 
 /* PÁGINA DE CONTEÚDO*/
  
