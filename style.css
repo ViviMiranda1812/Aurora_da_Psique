@@ -804,7 +804,7 @@ h4{
 .todo{
   background-color: #f0f0ec;
 }
-
+/* FIM DO CARD*/
 .descricao{
   color: #00472e;
   text-align: justify;
@@ -843,7 +843,7 @@ h5{
 p{
   color:#080808 ;
   font-size: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-align:justify;
   margin-bottom: 10px;
   letter-spacing: 2px; word-spacing: 4px;
