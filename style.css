@@ -792,13 +792,13 @@ h4{
 
 /* CARDS*/
 .card-img-top{
-  width: 1920px;
+  width: 2600px;
   height: 450px;
 }
 .card{
   background-color: #f0f0ec;
   position: absolute;
-  left: 300px;  
+  left: 500px;  
   top: 10px;
 }
 .todo{
