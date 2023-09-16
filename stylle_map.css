@@ -1,55 +1,47 @@
 .map-responsive {
 
-    overflow: hidden;
+  overflow: hidden;
 
-    padding-bottom: 56.25%;
+  padding-bottom: 56.25%;
 
-    position: relative;
+  position: relative;
 
-    height: 0;
+  height: 0;
 
 }
 
-.map-responsive iframe {
+.map-responsive iframe{
 
-    left: 400px;
+  left: 400px;
 
-    top: 100px;
+  top: 100px;
 
-    height: 580px;
+  height: 580px;
 
-    width: 780px;
+  width: 780px;
 
-    position: absolute;
+  position: absolute;
 
-    align-content: center;
+  align-content: center;
 }
 
-.desktop-1{
-    background-color: #499F80;
-}
 
 h4{
-  font-size: 30px;
-  text-align: center;
-  width: 1200px;
-  padding-left: 180px;
-  padding-right: 180px;
+font-size: 30px;
+text-align: center;
+width: 120px;
+padding-left: 180px;
+padding-right: 180px;
 }
- 
+
 p {
-  width: 1200px;
-  text-align: center;
-  padding-left: 180px;
-  padding-right: 180px;
+width: 120px;
+text-align: center;
+padding-left: 180px;
+padding-right: 180px;
 }
 
 .texto2 {
-
-  width: 1020px;
-  text-align: center;
-  padding-left: 180px;
-  padding-right: 180px;
   font-size: 20px;
+  text-align: center;
 }
- 
