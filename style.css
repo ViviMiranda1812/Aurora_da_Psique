@@ -796,16 +796,16 @@ h4{
   height: 430px;
 }
 .card-text{
- font-size: 16px;
- font-family: Arial, Helvetica, sans-serif;
- color: #006440;
-}
-
-.card-title{
-  font-size: 22px;
+  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #00472e;
-}
+  color: #00a181
+ }
+ 
+ .card-title{
+   font-size: 22px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #006440;
+ }
 
 .card{
   background-color: #f0f0ec;
