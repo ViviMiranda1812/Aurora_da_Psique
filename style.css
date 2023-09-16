@@ -792,19 +792,32 @@ h4{
 
 /* CARDS*/
 .card-img-top{
-  width: 2600px;
-  height: 450px;
+  width: 5000px;
+  height: 430px;
 }
+.card-text{
+ font-size: 16px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #006440;
+}
+
+.card-title{
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #00472e;
+}
+
 .card{
   background-color: #f0f0ec;
   position: absolute;
-  left: 500px;  
+  left: 560px;  
   top: 10px;
 }
 .todo{
   background-color: #f0f0ec;
 }
 /* FIM DO CARD*/
+
 .descricao{
   color: #00472e;
   text-align: justify;
