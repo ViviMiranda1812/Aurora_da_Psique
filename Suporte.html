@@ -4,29 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SUPORTE</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo.css">
   
+</head>
+
 <div class="formSelecao">
     <div>
         <h1>Suporte</h1>
         <div class="page">
             <form method="POST" class="formLogin">
-        <br>
-        <br>
-        <label for="cliente">Cliente</label> 
-        <input type="cliente" placeholder="Digite..." /> <br>
-        <br>
-        <br>
-        <label for="Telefone">Telefone</label> 
-        <input type="Telefone" placeholder="Digite seu número" /> <br> 
-        <br>
-        <br>
-        <label for="email">Email</label> 
-        <input type="email" placeholder="Digite seu e-mail" /> <br>
-        <br>
-        <br>
+       
         <form>
-            <select name="selecione o problema">
+        <label for="cliente">Cliente</label> 
+        <input class="cliente" placeholder="Digite..." required/> 
+      
+        
+        <label for="Telefone">Telefone</label> 
+        <input type="tel" minlength="11" maxlength="11" id="telefone" name="telefone" pattern="[0-9+]{11}" title="Por favor, insira apenas números." placeholder="Digite seu numero">
+
+        
+
+        
+        <label for="email">Email</label> 
+        <input id="input" class="email" type="email" placeholder="Digite seu e-mail" required/> 
+   
+    
+        
+            <select name="selecione o problema" class="selecionar">
                 <option value="selecione o problema">selecione o problema</option>
                 <option value="erro404">página não encontrada</option>
                 <option value="erro401"> erro no login</option>
@@ -39,14 +43,12 @@
                 <option value="erro411">imagem não carrega</option>
                 <option value="erro411">botão não funciona</option>
             </select>
-            <br>
-            <button class="buttoon"> ENVIAR</button>
-            <br>
-            </form>
            
-    
+            <button class="button">ENVIAR</button>
+        </form>
+        
         </div>
     </div>
 </div>
-
+<script src="suporte.js"></script>
 </html>
